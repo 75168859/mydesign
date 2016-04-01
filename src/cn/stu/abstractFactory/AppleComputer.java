@@ -1,5 +1,6 @@
 package cn.stu.abstractFactory;
 
+
 public class AppleComputer implements Computer {
 
 	@Override
