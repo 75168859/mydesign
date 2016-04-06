@@ -23,7 +23,7 @@ public class ProxyFactoryBean implements InvocationHandler{
 	
 	public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
 		System.out.println(" InvocationHandler......权限、事务、日志...");
-		method.invoke(target, args);// 如果这句话不出现目标方法是不会被调用的。
+//		method.invoke(target, args);// 如果这句话不出现目标方法是不会被调用的。
 		System.out.println("InvocationHandler.......事务、日志...");
 		return null;
 	}

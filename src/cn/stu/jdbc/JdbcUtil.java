@@ -24,7 +24,8 @@ public class JdbcUtil {
 		if(conn == null){
 			try {
 				Class.forName("");
-				conn = DriverManager.getConnection(prop.getProperty("url"), prop.getProperty("user"), prop.getProperty("password"));
+				conn = DriverManager.getConnection(prop.getProperty("url"), prop.getProperty("user"),
+						prop.getProperty("password"));
 				tl.set(conn);
 			} catch (Exception e) {
 				e.printStackTrace();
