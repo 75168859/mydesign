@@ -1,0 +1,21 @@
+20151016-004  38分开始
+
+桥接模式（别名：柄体模式）
+    将抽象部分与它的实现部分分离，使得它们都可以独立地变化。
+
+Bridge Pattern（Another Name: Handle-Body） 
+       Decouple an abstraction from its implementation so that the two can vary independently. 
+
+    桥接模式是关于怎样将抽象部分与它的实现部分分离，使得它们都可以独立地变化的成熟模式。 
+
+模式的结构中包括四种角色：
+抽象（Abstraction） 
+实现者（Implementor） 
+细化抽象（Refined Abstraction） 
+具体实现者（Concrete Implementor）
+
+
+   ------>桥接模式（使用较多，比较简单）
+         ---->组合/聚合复用原则、单一职责原则
+	 ---->难点将来要找出可变化的因素
+	      形成组合关系。
