@@ -1,7 +1,6 @@
 package cn.stu.abstractFactory;
 
 /**
- * 解码
  * @author liuhuan
  *
  */
