@@ -14,7 +14,6 @@ public class FruitFactory {
 		}
 	}
 	
-	//不支持反射的语言做到此步即可
 	public static Fruit getInstance(String name){
 		if("apple".equals(name)){
 			return new Apple();
@@ -24,7 +23,9 @@ public class FruitFactory {
 			throw new RuntimeException("不存在");
 		}
 	}
+	
 	//动态加载类并做强制类型转换，配置文件+反射解耦
+	
 	public static Fruit getInstance(){
 		try {
 			return (Fruit)Class.forName(prop.getProperty("fruit")).newInstance();
