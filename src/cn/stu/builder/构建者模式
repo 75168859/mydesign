@@ -16,7 +16,7 @@
 产品（Product） 
 抽象生成器（Builder） 
 具体生成器（ConcreteBuilder） 
-指挥者（Director） 
+指挥者（Director）   
 
 
 
